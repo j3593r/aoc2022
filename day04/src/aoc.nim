@@ -1,4 +1,4 @@
-import std/[strutils, sequtils, math, os]
+import std/[strutils, sequtils, os]
 
 let input = readFile("input.txt")
                 .strip()
