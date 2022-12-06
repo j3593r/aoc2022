@@ -26,4 +26,4 @@ when isMainModule:
   echo case getEnv("part"):
       of "part2": intToStr(part2(input))
       of "part1", "": intToStr(part1(input))
-      else: "Unknown part" 
+      else: "Unknown part"

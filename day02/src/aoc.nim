@@ -1,6 +1,6 @@
 import std/[strutils, sequtils, math, os]
 
-let input = readFile("../input.txt")
+let input = readFile("input.txt")
                 .strip()
                 .splitLines()
 
